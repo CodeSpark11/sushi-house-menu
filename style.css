@@ -1,0 +1,212 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Danfo&family=Matemasie&family=Protest+Strike&family=Tiny5&display=swap');
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav nav {
+    width: 40%;
+}
+
+
+.nav ul {
+    width: 100%;
+    margin-right: 10%;
+    text-align: right;
+    position: relative;
+    gap: 30px;
+}
+
+.nav ul li a {
+    color: #3d1b1b;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #ff0000;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #f39696;
+}
+
+.nav ul li.Active a {
+    color: #ff0000;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #f39696;
+}
+
+.nav navbar {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.nav navbar div a {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.nav navbar div a span {
+    font-family: "Matemasie", sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #f39696;
+}
+
+.nav navbar div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #ff0000;
+    box-shadow: 4px 4px 3px #f39696;
+}
+
+.position-relative img {
+    filter: brightness(0.5);
+}
+.padding-layout{
+    margin-bottom: 120px;
+}
+
+.carousel-caption {
+    text-align: center;
+    color: #fff; /* White text */
+    padding: 10px;
+    top:30%;
+}
+.carousel-caption h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #ff0000;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: cursive;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 100px;
+    height: 45px;
+}
+
+.eating{
+    border-bottom: 3px solid #ff00006c ;
+    background-image: url('Images/eating/background.jpg'); /* استبدل برابط خلفية القسم */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 8px;
+    color: #ffffff;
+    height: auto;
+    padding:0px 15px;
+    padding-top: 130px;
+}
+.drinks{
+    border-bottom: 3px solid #ff000059 ;
+    background-image: url("Images/drink/bg.jpg"); /* استبدل برابط خلفية القسم */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 8px;
+    color: #ffffff;
+    height: auto;
+    padding:0px 15px;
+    padding-top: 130px;
+}
+
+
+/* menu Section */
+
+.menu-section .heading-caption h2{
+    font-size:45px;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    text-shadow: 1.3px 1.3px 0.5px  rgb(0, 0, 0);
+    background-color: red;
+    height:  auto;
+    text-align: center;
+    width: 35%;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-left:10%;
+    padding: 15px;
+    font-family: cursive;
+}
+
+.table{
+    background-color:#21252987 !important;
+    color: #fff;
+    font-family: 'Amiri', 'Open Sans', sans-serif;
+}
+.table-section table td,.table-section table th {
+    vertical-align: middle; /* Vertically align all table content */
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.264);
+}
+.table-section table tr:hover{
+    background-color: #472c2c1e;
+    color: #fff;
+    cursor: pointer;
+}
+.table-section table .price {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.table-section table td p,.table-section table th p{
+    font-size: 1.4rem; /* Large font size for paragraph */
+    font-weight: bold;
+    color: red;
+    font-family: cursive;
+}
+
+.table-section table td  span {
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.imge-menu-table{
+    padding-bottom: 100px;
+}
+
+/* End menu Section */
+.Contact a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+footer{
+    background-color:#020202;
+}
+
+#eating2 .row,
+#eating4 .row,
+#dishes .row,
+#drinks .row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#eating2 .heading-caption,
+#eating4 .heading-caption,
+#dishes .heading-caption,
+#drinks .heading-caption {
+    display: flex;
+    justify-content: end;
+
+}
